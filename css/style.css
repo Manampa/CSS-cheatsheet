@@ -1,15 +1,20 @@
+/* if I want to have a base template without any of the box model in effect
+*{
+  margin: 0;
+  padding: 0;
+}
+*/
 body {
   color: #555;
   background: #f4f4f4;
 
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
-
   /* same as above */
   font: normal 16px Arial, Helvetica, sans-serif;
 
-  line-height: 2em;
+  line-height: 1.6em;
   margin: 0%;
 }
 
@@ -26,10 +31,21 @@ body {
   border-left: 5px red solid;
   border-bottom: 5px red solid;
   border-top: 5px red solid;
-/*same as above*/
-  border: 5px red solid;
   border-width: 3px;
   border-bottom-width: 10px;
   border-top-style: dotted;
   border-bottom-style: double;
+
+  border: 5px red solid;
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+  /*same as top*/
+  padding: 20px;
+  
+  margin: 20px 0;
 }
+
