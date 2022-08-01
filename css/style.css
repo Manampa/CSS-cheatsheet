@@ -33,12 +33,24 @@ a:active{
 }
 
 a:visited{
-  color: #555;
+  
 }
 
 .container{
     width: 80%;
     margin: auto;
+}
+
+.button{
+  background-color: #333;
+  color:#fff;
+  padding:10px 15px;
+  border:none;
+}
+
+.button:hover{
+  background:red;
+  color:#fff;
 }
 
 .box-1 {
@@ -110,4 +122,22 @@ word-spacing: 1em;
   list-style-image: url('../images/checkmark.png.png');
 
 }
+
+.my-form{
+  padding:20px;
+}
+
+.my-form .form-group{
+  padding-bottom: 10px;
+}
+
+.my-form label{
+  display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+  padding: 8px;
+  width: 100%;
+}
+
 
