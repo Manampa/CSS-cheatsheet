@@ -53,6 +53,10 @@ a:visited{
   color:#fff;
 }
 
+.clr{
+  clear:both
+}
+
 .box-1 {
   background: #333;
   color: #ffffff;
@@ -139,5 +143,27 @@ word-spacing: 1em;
   padding: 8px;
   width: 100%;
 }
+.block{
+  float:left;
+  width:33.3%;
+  border:1px solid #ccc;
+  padding:10px;
+  box-sizing: border-box;
+}
 
+#main-block{
+  float:left;
+  width:70%
+  padding:15px;
+  box-sizing: border-box;
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  background-color: #333;
+  color:#fff;
+  padding:15px;
+  box-sizing: border-box;
+}
 
