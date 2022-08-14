@@ -208,4 +208,7 @@ word-spacing: 1em;
   background: yellow;
 }
 
+.my-list li:nth-child(even){
+  background: red;
+}
 
